@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Page2.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="imgs\10C.png" />
+    <None Remove="imgs\10D.png" />
+    <None Remove="imgs\10S.png" />
+    <None Remove="imgs\10T.png" />
+    <None Remove="imgs\11C.png" />
+    <None Remove="imgs\11D.png" />
+    <None Remove="imgs\11S.png" />
+    <None Remove="imgs\11T.png" />
+    <None Remove="imgs\12C.png" />
+    <None Remove="imgs\12D.png" />
+    <None Remove="imgs\12S.png" />
+    <None Remove="imgs\12T.png" />
+    <None Remove="imgs\13C.png" />
+    <None Remove="imgs\13D.png" />
+    <None Remove="imgs\13S.png" />
+    <None Remove="imgs\13T.png" />
+    <None Remove="imgs\1C.png" />
+    <None Remove="imgs\1D.png" />
+    <None Remove="imgs\1S.png" />
+    <None Remove="imgs\1T.png" />
+    <None Remove="imgs\2C.png" />
+    <None Remove="imgs\2D.png" />
+    <None Remove="imgs\2S.png" />
+    <None Remove="imgs\2T.png" />
+    <None Remove="imgs\3C.png" />
+    <None Remove="imgs\3D.png" />
+    <None Remove="imgs\3S.png" />
+    <None Remove="imgs\3T.png" />
+    <None Remove="imgs\4C.png" />
+    <None Remove="imgs\4D.png" />
+    <None Remove="imgs\4S.png" />
+    <None Remove="imgs\4T.png" />
+    <None Remove="imgs\5C.png" />
+    <None Remove="imgs\5D.png" />
+    <None Remove="imgs\5S.png" />
+    <None Remove="imgs\5T.png" />
+    <None Remove="imgs\6C.png" />
+    <None Remove="imgs\6D.png" />
+    <None Remove="imgs\6S.png" />
+    <None Remove="imgs\6T.png" />
+    <None Remove="imgs\7C.png" />
+    <None Remove="imgs\7D.png" />
+    <None Remove="imgs\7S.png" />
+    <None Remove="imgs\7T.png" />
+    <None Remove="imgs\8C.png" />
+    <None Remove="imgs\8D.png" />
+    <None Remove="imgs\8S.png" />
+    <None Remove="imgs\8T.png" />
+    <None Remove="imgs\9C.png" />
+    <None Remove="imgs\9D.png" />
+    <None Remove="imgs\9S.png" />
+    <None Remove="imgs\9T.png" />
+    <None Remove="imgs\Baraja51.png" />
+    <None Remove="imgs\Dorso.png" />
+    <None Remove="resources\cancel.png" />
+    <None Remove="resources\conectar.png" />
+    <None Remove="resources\flecha.png" />
+    <None Remove="resources\login.png" />
+    <None Remove="resources\pasar.png" />
+    <None Remove="resources\plus.png" />
+    <None Remove="resources\registrarse.png" />
+    <None Remove="resources\tabla.png" />
+    <None Remove="resources\wallpaperEspera.jpg" />
+    <None Remove="resources\wallpaperInicio.jpg" />
+    <None Remove="resources\wallpaperLogin.jpg" />
+    <None Remove="resources\wallpaperSignup.jpg" />
+    <None Remove="resources\wallpaperTablero.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="Page2.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="imgs\10C.png" />
+    <Resource Include="imgs\10D.png" />
+    <Resource Include="imgs\10S.png" />
+    <Resource Include="imgs\10T.png" />
+    <Resource Include="imgs\11C.png" />
+    <Resource Include="imgs\11D.png" />
+    <Resource Include="imgs\11S.png" />
+    <Resource Include="imgs\11T.png" />
+    <Resource Include="imgs\12C.png" />
+    <Resource Include="imgs\12D.png" />
+    <Resource Include="imgs\12S.png" />
+    <Resource Include="imgs\12T.png" />
+    <Resource Include="imgs\13C.png" />
+    <Resource Include="imgs\13D.png" />
+    <Resource Include="imgs\13S.png" />
+    <Resource Include="imgs\13T.png" />
+    <Resource Include="imgs\1C.png" />
+    <Resource Include="imgs\1D.png" />
+    <Resource Include="imgs\1S.png" />
+    <Resource Include="imgs\1T.png" />
+    <Resource Include="imgs\2C.png" />
+    <Resource Include="imgs\2D.png" />
+    <Resource Include="imgs\2S.png" />
+    <Resource Include="imgs\2T.png" />
+    <Resource Include="imgs\3C.png" />
+    <Resource Include="imgs\3D.png" />
+    <Resource Include="imgs\3S.png" />
+    <Resource Include="imgs\3T.png" />
+    <Resource Include="imgs\4C.png" />
+    <Resource Include="imgs\4D.png" />
+    <Resource Include="imgs\4S.png" />
+    <Resource Include="imgs\4T.png" />
+    <Resource Include="imgs\5C.png" />
+    <Resource Include="imgs\5D.png" />
+    <Resource Include="imgs\5S.png" />
+    <Resource Include="imgs\5T.png" />
+    <Resource Include="imgs\6C.png" />
+    <Resource Include="imgs\6D.png" />
+    <Resource Include="imgs\6S.png" />
+    <Resource Include="imgs\6T.png" />
+    <Resource Include="imgs\7C.png" />
+    <Resource Include="imgs\7D.png" />
+    <Resource Include="imgs\7S.png" />
+    <Resource Include="imgs\7T.png" />
+    <Resource Include="imgs\8C.png" />
+    <Resource Include="imgs\8D.png" />
+    <Resource Include="imgs\8S.png" />
+    <Resource Include="imgs\8T.png" />
+    <Resource Include="imgs\9C.png" />
+    <Resource Include="imgs\9D.png" />
+    <Resource Include="imgs\9S.png" />
+    <Resource Include="imgs\9T.png" />
+    <Resource Include="imgs\Baraja51.png" />
+    <Resource Include="imgs\Dorso.png" />
+    <Resource Include="resources\cancel.png" />
+    <Resource Include="resources\conectar.png" />
+    <Resource Include="resources\flecha.png" />
+    <Resource Include="resources\login.png" />
+    <Resource Include="resources\pasar.png" />
+    <Resource Include="resources\plus.png" />
+    <Resource Include="resources\registrarse.png" />
+    <Resource Include="resources\tabla.png" />
+    <Resource Include="resources\wallpaperEspera.jpg" />
+    <Resource Include="resources\wallpaperInicio.jpg" />
+    <Resource Include="resources\wallpaperLogin.jpg" />
+    <Resource Include="resources\wallpaperSignup.jpg" />
+    <Resource Include="resources\wallpaperTablero.jpg" />
+  </ItemGroup>
+
+</Project>

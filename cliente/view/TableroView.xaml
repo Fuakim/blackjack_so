@@ -1,0 +1,280 @@
+﻿<Page x:Class="cliente.view.TableroView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cliente"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="TableroView" Height="650" Width="1000">
+
+    <Grid Width="1000" Height="650">
+        <Grid.Background>
+            <ImageBrush ImageSource="/resources/wallpaperTablero.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Image x:Name="C3J2" HorizontalAlignment="Left" Margin="193,277,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.288,0.592" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J2" HorizontalAlignment="Left" Margin="30,277,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/Dorso.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J2" HorizontalAlignment="Left" Margin="109,277,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C3J3" HorizontalAlignment="Left" Margin="193,450,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.288,0.592" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J3" HorizontalAlignment="Left" Margin="30,450,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/Dorso.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J3" HorizontalAlignment="Left" Margin="109,450,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J0" HorizontalAlignment="Left" Margin="445,529,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.49,0.507" Height="106" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C3J0" HorizontalAlignment="Left" Margin="530,529,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.529,0.524" Height="106" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J0" HorizontalAlignment="Left" Margin="361,529,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C3J6" HorizontalAlignment="Left" Margin="906,118,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.288,0.592" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J6" HorizontalAlignment="Left" Margin="824,118,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J6" HorizontalAlignment="Left" Margin="740,118,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/Dorso.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C3J5" HorizontalAlignment="Left" Margin="906,277,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" RenderTransformOrigin="0.288,0.592" Height="107" Source="/imgs/13T.png" OpacityMask="Black">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J5" HorizontalAlignment="Left" Margin="824,277,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J5" HorizontalAlignment="Left" Margin="740,277,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/Dorso.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J7" HorizontalAlignment="Left" Margin="445,9,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.288,0.592" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J7" HorizontalAlignment="Left" Margin="361,9,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/Dorso.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C3J7" HorizontalAlignment="Left" Margin="530,9,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C3J4" HorizontalAlignment="Left" Margin="906,450,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.288,0.592" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J4" HorizontalAlignment="Left" Margin="824,450,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J4" HorizontalAlignment="Left" Margin="740,450,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/Dorso.png" Visibility="Visible">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C3J1" HorizontalAlignment="Left" Margin="193,118,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.288,0.592" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C1J1" HorizontalAlignment="Left" Margin="30,118,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/Dorso.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Image x:Name="C2J1" HorizontalAlignment="Left" Margin="109,118,0,0" VerticalAlignment="Top" Width="70" Stretch="Uniform" OpacityMask="White" RenderTransformOrigin="0.5,0.5" Height="107" Source="/imgs/13T.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+        </Image>
+        <Label x:Name="U1" Content="Label" HorizontalAlignment="Left" Margin="91,52,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-1.017" Y="33.928"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="lblRonda" Content="Movimientos&#xD;&#xA;" HorizontalAlignment="Left" Margin="306,179,0,0" VerticalAlignment="Top" Foreground="White" Height="262" Width="259" BorderBrush="#FFDE1818" OpacityMask="#FFF50C0C" Padding="35,30,5,5">
+            <Label.Background>
+                <ImageBrush ImageSource="/resources/tabla.png" Stretch="Fill"/>
+            </Label.Background>
+        </Label>
+        <Label x:Name="D1" Content="Label" HorizontalAlignment="Left" Margin="188,54,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-13.776" Y="31.52"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="U2" Content="Label" HorizontalAlignment="Left" Margin="90,244,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="D2" Content="Label" HorizontalAlignment="Left" Margin="174,244,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="U3" Content="Label" HorizontalAlignment="Left" Margin="105,450,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-14.654" Y="-34.895"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="D3" Content="Label" HorizontalAlignment="Left" Margin="175,454,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.497,0.567">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-0.871" Y="-37.724"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="D6" Content="Label" HorizontalAlignment="Left" Margin="888,58,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="-1.462" Y="27.445"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="U6" Content="Label" HorizontalAlignment="Left" Margin="788,60,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="9.508" Y="25.682"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="D5" Content="Label" HorizontalAlignment="Left" Margin="887,244,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="U5" Content="Label" HorizontalAlignment="Left" Margin="798,244,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="D4" Content="Label" HorizontalAlignment="Left" Margin="874,445,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="12.655" Y="-28.578"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="U4" Content="Label" HorizontalAlignment="Left" Margin="797,447,0,0" VerticalAlignment="Top" Foreground="White" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="0.581" Y="-30.727"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label x:Name="U0" Content="Label" HorizontalAlignment="Left" Margin="461,491,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="D0" Content="Label" HorizontalAlignment="Left" Margin="283,538,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontFamily="Bahnschrift"/>
+        <Label Content="Crupier" HorizontalAlignment="Left" Margin="455,118,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="btn_plantar" Content="Plantarse" HorizontalAlignment="Left" Margin="635,569,0,0" VerticalAlignment="Top" Width="64" Height="26" BorderThickness="0,0,0,0" Click="onClickBtnPlantar" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF50E82E" Offset="1"/>
+                    <GradientStop Color="#FF9BFDF4" Offset="0.056"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_pedir" Content="Pedir Carta" HorizontalAlignment="Left" Margin="635,538,0,0" VerticalAlignment="Top" Width="64" Height="26" BorderThickness="0,0,0,0" Foreground="Black" OpacityMask="#FFE84747" BorderBrush="#FFE01212" Cursor="Hand" Click="onClickBtnPedir">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FF50E82E" Offset="1"/>
+                    <GradientStop Color="#FF9BFDF4" Offset="0.056"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btn_salir" Content="Salir" HorizontalAlignment="Left" Margin="635,600,0,0" VerticalAlignment="Top" Width="64" Height="27" BorderThickness="0,0,0,0" Click="onClickBtnSalir" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFE62727" Offset="1"/>
+                    <GradientStop Color="#FFD3F7F4" Offset="0.056"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="txt_apuesta" HorizontalAlignment="Left" Margin="282,565,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Text="10" />
+        <Image x:Name="baraja" HorizontalAlignment="Left" Margin="579,254,0,0" VerticalAlignment="Top" Width="98" Stretch="Uniform" RenderTransformOrigin="0.288,0.592" Height="112" Source="/imgs/Baraja51.png">
+            <Image.Effect>
+                <DropShadowEffect/>
+            </Image.Effect>
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform X="3.516" Y="-17.684"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Content="Apostar" HorizontalAlignment="Left" Margin="279,583,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="max = 50, min = 10" HorizontalAlignment="Left" Margin="248,609,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="lbl_info" Content="" HorizontalAlignment="Left" Margin="60,591,0,0" VerticalAlignment="Top" Foreground="White" FontSize="14" FontFamily="Bahnschrift Light"/>
+        <Label Content="Fondos&#xD;&#xA;" HorizontalAlignment="Left" Margin="282,518,0,0" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="Black" Foreground="#FFFDFDFD"/>
+
+    </Grid>
+</Page>
